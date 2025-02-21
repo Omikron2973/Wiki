@@ -4,6 +4,4 @@ title: About
 permalink: /about
 ---
 
-*This is an about page.*
-
-Feel free to tell the world about what you love! 😍
+Вы находитесь в Библиотеке благодати, Величайшей из библиотек [[Элла|Эллы]].

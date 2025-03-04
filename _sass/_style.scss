@@ -17,7 +17,7 @@ body {
   color: $color-text;
   font-size: 1rem;
   max-width: 63em;
-  background-color: rgb(94, 94, 94);
+  background-color: #161C23;
   color: #d9d9d9;
 
   @media (min-width: 820px) {
@@ -138,7 +138,7 @@ code {
 .invalid-link {
   color: #d9d9d9;
   cursor: help;
-  background: rgb(94, 94, 94);
+  background: #12181F;
   padding: 0 0.1em;
 }
 

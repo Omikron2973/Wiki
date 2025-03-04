@@ -84,15 +84,15 @@ a {
   border-bottom: 1px solid $color-border;
   color: $color-primary;
   &:hover {
-    color: #e2e2e2 !important;
-    background: rgb(120, 120, 120);
+    color: #ffffff !important;
+    background: rgb(72, 72, 72);
   }
   &:after {
     position: relative;
     top: -0.5em;
     font-size: 0.7em;
     content: "↗";
-    color: #aaaaaa;
+    color: #d9d9d9;
   }
   &.internal-link:after,
   &.footnote:after,

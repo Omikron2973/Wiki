@@ -84,8 +84,8 @@ a {
   border-bottom: 1px solid $color-border;
   color: $color-primary;
   &:hover {
-    color: black !important;
-    background: #fffaf1;
+    color: #d9d9d9 !important;
+    background: rgb(94, 94, 94);
   }
   &:after {
     position: relative;
@@ -136,13 +136,13 @@ code {
 }
 
 .invalid-link {
-  color: #444444;
+  color: #d9d9d9;
   cursor: help;
-  background: #fafafa;
+  background: rgb(67, 67, 67);
   padding: 0 0.1em;
 }
 
 .invalid-link-brackets {
-  color: #ccc;
+  color: #d9d9d9;
   cursor: help;
 }

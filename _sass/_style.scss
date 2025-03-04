@@ -2,7 +2,9 @@ $color-primary: #d9d9d9;
 $color-text: #d9d9d9;
 $color-subtext: #707070;
 $color-border: #8b88e6;
-$color-box-background: mix($color-primary, #12181F, 4%);
+$color-box-background: mix($color-primary, $color-dark, 4%);
+$color-dark: #12181F;
+$color-light: #161C23;
 $border-radius: 4px;
 $font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
   sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
@@ -17,16 +19,12 @@ body {
   color: $color-text;
   font-size: 1rem;
   max-width: 63em;
-  background-color: #161C23;
-  color: #d9d9d9;
+  background-color: $color-light;
+  color: $color-primary;
 
   @media (min-width: 820px) {
     font-size: 1.2rem;
   }
-}
-
-internal-link {
-  color: #d9d9d9;
 }
 
 time {
@@ -38,7 +36,7 @@ time {
 footer {
   margin: 2em 0;
   font-size: 0.8em;
-  color: #d9d9d9;
+  color: $color-primary;
   padding-top: 1em;
 }
 
@@ -96,7 +94,7 @@ a {
     top: -0.5em;
     font-size: 0.7em;
     content: "↗";
-    color: #d9d9d9;
+    color: $color-primary;
   }
   &.internal-link:after,
   &.footnote:after,
@@ -140,13 +138,13 @@ code {
 }
 
 .invalid-link {
-  color: #d9d9d9;
+  color: $color-primary;
   cursor: help;
-  background: #12181F;
+  background: $color-dark;
   padding: 0 0.1em;
 }
 
 .invalid-link-brackets {
-  color: #d9d9d9;
+  color: $color-primary;
   cursor: help;
 }
